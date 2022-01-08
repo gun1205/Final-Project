@@ -14,5 +14,22 @@
     <ClCompile Include="..\..\source\main.c">
       <Filter>source</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\source\bubble_sort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\int quick_sort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\insertion_sort.c">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\output_arr.c">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\include\sort.h">
+      <Filter>include</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
