@@ -1,5 +1,5 @@
 /*§Ö³t±Æ§Ç*/
-#include <stdio.h>
+/*#include <stdio.h>
 #include <stdlib.h>
 
 int quick_sort(int arr[], int first_index, int last_index)
@@ -55,4 +55,4 @@ int quick_sort(int arr[], int first_index, int last_index)
 			quick_sort(arr, index_b + 1, last_index);
 		
 	}
-}
+}*/

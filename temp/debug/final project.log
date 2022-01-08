@@ -1,5 +1,13 @@
 ﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(376,5): warning MSB8004: Intermediate 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Intermediate 目錄。
 C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output 目錄結尾不是結尾斜線。這個建置執行個體將會加入此斜線，因為這樣才能正確評估 Output 目錄。
-  output_arr.c
-c:\users\user\desktop\final project\source\output_arr.c(12): warning C4716: 'output_arr': 必須傳回值
+  bubble_sort.c
+c:\users\user\desktop\final project\source\bubble_sort.c(22): warning C4101: 'swap': 未參考的區域變數
+c:\users\user\desktop\final project\source\bubble_sort.c(22): warning C4101: 'd': 未參考的區域變數
+  insertion_sort.c
+c:\users\user\desktop\final project\source\insertion_sort.c(34): warning C4013: 'bubble_sort' 未定義; 假設 extern 傳回整數
+c:\users\user\desktop\final project\source\insertion_sort.c(28): warning C4101: 'swap': 未參考的區域變數
+c:\users\user\desktop\final project\source\insertion_sort.c(28): warning C4101: 'd': 未參考的區域變數
+  main.c
+  正在產生程式碼...
+c:\users\user\desktop\final project\source\insertion_sort.c(23): warning C4716: 'insertion_sort': 必須傳回值
   final project.vcxproj -> C:\Users\USER\Desktop\Final Project\final project\final project\..\..\temp\debug\final project.exe
