@@ -4,10 +4,10 @@
 
 int main(void) 
 {
-	int i;
-	int arr1[] = { 3,2,1,7,6,5,9,8,7 };
-	int arr2[] = { 30,20,10,70,60,50,90,80,70 };
-	int arr3[] = { 300,200,100,700,600,500,900,800,700 };
+	int i,h=0;
+	int arr1[] = { 6, 26, 65, 12, 81, 34, 56, 94, 72 };
+	int arr2[] = { 6, 26, 65, 12, 81, 34, 56, 94, 72 };
+	int arr3[] = { 6, 26, 65, 12, 81, 34, 56, 94, 72 };
 
 	while (1)
 	{
@@ -26,17 +26,19 @@ int main(void)
 			return 0;
 			break;
 
+
 		case 1:
 			bubble_sort(arr1, 9);
-			output_arr(arr1, 9);
+			//output_arr(arr1, 9);
 			break;
 
 		case 2:
 			insertion_sort(arr2, 9);
-			output_arr(arr2, 9);
+			//output_arr(arr2, 9);
 			break;
 
 		case 3:
+			h = 0;
 			quick_sort(arr3, 0, 8);
 			output_arr(arr3, 9);
 			break;

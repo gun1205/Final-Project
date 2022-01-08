@@ -16,5 +16,9 @@ int  bubble_sort(int arr[], int n)
 				arr[i] = temp;
 			}
 		}
+	printf("loop %d : ", i+1);
+	for (j = 0; j < 9; j++)
+		printf("%4d", arr[j]);
+	printf("\n");
 	}
 }
