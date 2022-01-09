@@ -13,6 +13,7 @@ int main(void)
 		printf("If enter 0 break\n");
 		printf("If enter 1 bubble_sort\n");
 		printf("If enter 2 insertion_sort\n");
+		printf("If enter 5 merge_sort\n");
 
 		printf("Enter a number(0~3) : ");
 		scanf_s("%d", &i);
@@ -32,7 +33,9 @@ int main(void)
 			insert();
 			break;
 
-
+		case 5:
+			merge();
+			break;
 		}
 	}
 	return 0;
