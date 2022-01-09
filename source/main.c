@@ -15,6 +15,7 @@ int main(void)
 		printf("If enter 2 insertion_sort\n");
 		printf("If enter 3 quick_sort\n");
 		printf("If enter 4 selection_sort\n");
+		printf("If enter 5 merge_sort\n");
 
 		printf("Enter a number(0~4) : ");
 		scanf_s("%d", &i);
@@ -40,6 +41,9 @@ int main(void)
 
 		case 4:
 			selection();
+
+		case 5:
+			merge();
 			break;
 		}
 	}
